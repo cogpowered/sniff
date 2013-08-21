@@ -9,6 +9,7 @@
     <!-- Re-use some built-sniffs -->
     <rule ref="Squiz.Commenting.ClassComment" />
     <rule ref="Squiz.Commenting.VariableComment" />
+    <rule ref="Squiz.Commenting.FunctionComment" />
     <rule ref="Squiz.Commenting.FunctionCommentThrowTag" />
 
     <!-- Ignore some rules -->
