@@ -1,0 +1,11 @@
+{
+    "name": "cogpowered/sniff",
+    "description": "Cogs Sniff for PHPCS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rob Crowe",
+            "email": "rob@cogpowered.com"
+        }
+    ]
+}

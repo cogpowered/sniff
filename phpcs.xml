@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ruleset name="Cog">
+
+    <description>Cog PHP_CodeSniffer configuration</description>
+
+    <!-- Use all of PSR-2 -->
+    <rule ref="PSR2"/>
+
+    <!-- Re-use some built-sniffs -->
+    <rule ref="Squiz.Commenting.ClassComment" />
+    <rule ref="Squiz.Commenting.VariableComment" />
+    <rule ref="Squiz.Commenting.FunctionCommentThrowTag" />
+
+    <!-- Ignore some rules -->
+    <rule ref="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket">
+        <severity>0</severity>
+    </rule>
+    <rule ref="PEAR.Functions.FunctionCallSignature.CloseBracketLine">
+        <severity>0</severity>
+    </rule>
+    <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace">
+        <severity>0</severity>
+    </rule>
+
+</ruleset>
