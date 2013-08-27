@@ -25,7 +25,7 @@
     <rule ref="PEAR.Functions.FunctionCallSignature.MultipleArguments">
         <severity>0</severity>
     </rule>
-    <rule ref="PEAR.Functions.FunctionDeclaration.SpaceAfterFunction">
+    <rule ref="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterFunction">
         <severity>0</severity>
     </rule>
     <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace">
